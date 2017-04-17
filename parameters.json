@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westus"
+        },
+        "virtualMachineName": {
+            "value": "azcmaster"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D1_v2"
+        },
+        "adminUsername": {
+            "value": "tspeigner"
+        },
+        "virtualNetworkName": {
+            "value": "tse-demo-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "azcmaster683"
+        },
+        "networkSecurityGroupName": {
+            "value": "azcmaster-nsg"
+        },
+        "adminPublicKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCeJQFBHu7nomRPUCiq956ahn4En34tm5on4tLXT41fsny/l13yWvd9y6fdOhK8/XjFfAPHVJmWL/Ow5ut+QZ9Ye528Y+C9bWD3iYLqROTsuD6ZWw6ndOkBDaAkRGOBWBfyG0PGFCVfd+JRboQymfdw/cZKARGkV+hcqB/LfPXtrZ62iV9ozxqNbEeN6FYrhL3XigsZO8IFyQnwko5ctQWR/HYgimfDRp9QdRo3CSX1j87ZBQmdA/nXKGR5Gam7hMm/gP7mFVIMY7q7MrbHyqEmyS69zAn36rKVnJCwi+exM4GDHeiufa4QJJC2u8t/xlo7Oru0m4bMO6OQNLL+w8G9"
+        },
+        "storageAccountName": {
+            "value": "tsedemodisks838"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "tsedemodiag632"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/tsedemodiag632"
+        },
+        "addressPrefix": {
+            "value": "10.2.1.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.2.1.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "azcmaster-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}
